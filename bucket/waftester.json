@@ -1,19 +1,19 @@
 {
-    "version": "2.8.9",
+    "version": "2.9.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/waftester/waftester/releases/download/v2.8.9/waftester_Windows_x86_64.zip",
+            "url": "https://github.com/waftester/waftester/releases/download/v2.9.0/waftester_Windows_x86_64.zip",
             "bin": [
                 "waf-tester.exe"
             ],
-            "hash": "9d6c34a423079b3134b87a177224afa038ea214ab0b5cd8e1bf254c31a5785f7"
+            "hash": "927466ce0c37cae547ea68a303df875c6247556a31c4167be9429273d77406c4"
         },
         "arm64": {
-            "url": "https://github.com/waftester/waftester/releases/download/v2.8.9/waftester_Windows_arm64.zip",
+            "url": "https://github.com/waftester/waftester/releases/download/v2.9.0/waftester_Windows_arm64.zip",
             "bin": [
                 "waf-tester.exe"
             ],
-            "hash": "cdf9c9ad66234f7d5d2a38fdcd4a1f80eda39854bfff452d31ed028e493e9532"
+            "hash": "bdd7842c722888b5b79ba7edfa40aea8a4e998528e436bca4784a9569dc96b03"
         }
     },
     "homepage": "https://waftester.com",
