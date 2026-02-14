@@ -1,33 +1,22 @@
 {
-  "version": "2.8.8",
-  "description": "WAF security testing CLI — detect, benchmark, and bypass web application firewalls",
-  "homepage": "https://waftester.com",
-  "license": "BSL-1.1",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/waftester/waftester/releases/download/v2.8.8/waftester_Windows_x86_64.zip",
-      "hash": "cf79aa44d22484f71860150db123cc2da579145c3622b86c2056b8e81fae73e5"
-    },
-    "arm64": {
-      "url": "https://github.com/waftester/waftester/releases/download/v2.8.8/waftester_Windows_arm64.zip",
-      "hash": "fa0cdf12a67dc895978f37d22b56dfa482c733140c70318690c96398f06af0b8"
-    }
-  },
-  "bin": "waf-tester.exe",
-  "checkver": {
-    "github": "https://github.com/waftester/waftester"
-  },
-  "autoupdate": {
+    "version": "2.8.9",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/waftester/waftester/releases/download/v$version/waftester_Windows_x86_64.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/waftester/waftester/releases/download/v$version/waftester_Windows_arm64.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/waftester/waftester/releases/download/v2.8.9/waftester_Windows_x86_64.zip",
+            "bin": [
+                "waf-tester.exe"
+            ],
+            "hash": "9d6c34a423079b3134b87a177224afa038ea214ab0b5cd8e1bf254c31a5785f7"
+        },
+        "arm64": {
+            "url": "https://github.com/waftester/waftester/releases/download/v2.8.9/waftester_Windows_arm64.zip",
+            "bin": [
+                "waf-tester.exe"
+            ],
+            "hash": "cdf9c9ad66234f7d5d2a38fdcd4a1f80eda39854bfff452d31ed028e493e9532"
+        }
     },
-    "hash": {
-      "url": "https://github.com/waftester/waftester/releases/download/v$version/checksums.txt"
-    }
-  }
+    "homepage": "https://waftester.com",
+    "license": "BSL-1.1",
+    "description": "WAF security testing CLI — detect, benchmark, and bypass web application firewalls"
 }
